@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-300 to-yellow-300 p-4">
+
+
+    <div class="flex flex-col gap-3 bg-white p-4 w-full max-w-4xl  rounded-3xl justify-center items-center">
+        <h1 class="my-16 mt-14 text-3xl font-serif tracking-widest">STONE PAPER & SCISSOR GAME 🎮</h1>
+        <label for="dropdown" class="mt- text-lg font-medium">Choose an option:</label>
+        <select 
+            id="dropdown" 
+            class="border-2 border-purple-300 rounded-xl placeholder:text-center py-2 px-2 mb-11"
+        >
+            <option value="Stone">Stone</option>
+            <option value="Paper">Paper</option>
+            <option value="Scissors">Scissors</option>
+        </select>
+    
+        <button 
+            onclick="Game()" 
+            class="bg-gradient-to-r from-purple-300 to-yellow-200 py-2 px-2 rounded-xl mb-14  font-medium hover:scale-105 transition-transform duration-200"
+        >
+            Submit Choice
+        </button>
+        <div class="font-extrabold text-[#29a588c0] text-2xl " id="blank"></div>
+        <div class="font-extrabold text-purple-400 text-2xl pb-10 " id="lose"></div>
+    
+    </div>
+
+
+    <script src="test.js"></script>
+</body>
+</html>
+
+</div>
+
+
+
